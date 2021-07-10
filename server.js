@@ -11,7 +11,7 @@ const app = express();
 app.use(express.json());
 
 //DB config
-const db = config.get('mongoURI');
+const db = process.env.MONGODB_URI || config.get('mongoURI');
 
 // connect to mongo
 mongoose
