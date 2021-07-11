@@ -1,4 +1,4 @@
 {
-    "mongoURI": "mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass&ssl=false",
-    "jwtSecret": "jwtkapass"
+    "mongoURI": "mongodb+srv://<username>:<password>@dbname.ozhbw.mongodb.net/dbname?retryWrites=true&w=majority",
+    "jwtSecret": "dekhomerasecretgitpe_noproblem"
 }
